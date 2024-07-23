@@ -1,5 +1,4 @@
 # Bike-Sharing_Submission_Dicoding
-# Cara Menjalankan Dashboard di Google Colab
 
 ## Setting Evirontment
     !pip install -q streamlit
