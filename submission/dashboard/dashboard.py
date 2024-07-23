@@ -1,4 +1,3 @@
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -98,7 +97,7 @@ st.write(f"Jumlah penyewaan sepeda terendah berdasarkan musim: {min_rentals_seas
 
 # Plot jumlah penyewaan sepeda berdasarkan musim sepanjang tahun
 fig, ax = plt.subplots(figsize=(14, 8))
-sns.barplot(data=yearly_rentals_season, x='season', y='cnt', hue='season', palette='coolwarm', estimator='sum')
+sns.barplot(data=yearly_rentals_season, x='season', y='cnt', hue='season', palette='coolwarm')
 ax.set_title('Jumlah Penyewaan Sepeda Berdasarkan Musim Sepanjang Tahun')
 ax.set_xlabel('Musim')
 ax.set_ylabel('Jumlah Penyewaan Sepeda')
